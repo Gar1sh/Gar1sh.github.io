@@ -3,8 +3,8 @@ body {
 }
 
 hr {
-    height: 10px;
-    border: 20px solid black;
+    height: 7px;
+    border: 12px solid black;
     
 }
 
@@ -24,16 +24,17 @@ hr {
 
 h1 {
     text-align: center;
-    font-size: 75px;
+    font-size: 50px;
     color: silver;
     padding-bottom: 5px;
 }
 
 h2 {
-    text-align: center;
-    font-size: 60px;
+    text-align: left;
+    font-size: 40px;
     color: silver;
     padding-bottom: 5px;
+    padding-left: 20px;
 }
 
 p {
