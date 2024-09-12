@@ -30,6 +30,10 @@ ul {
     color: rgb(70, 180, 180);
 }
 
+.container {
+        display: flex; 
+}
+
 body {   
     background-color: rgb(21, 21, 138);
 }
