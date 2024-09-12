@@ -30,8 +30,8 @@ ul {
     color: rgb(12, 246, 222);
 }
 
-.container {
-        display: flex; 
+.navbarli {
+    display: inline
 }
 
 body {   
