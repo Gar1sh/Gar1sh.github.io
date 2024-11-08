@@ -10,14 +10,14 @@ hr {
 
 .frame {
     width: 1000px;
-    height: 2800px;
+    height: 2900px;
     border: 50px solid black;
     margin: 50px auto;
 }
 
 .canvas {
     width: 1000px;
-    height: 2800px;
+    height: 2900px;
     background: linear-gradient(rgb(136, 6, 77), rgb(209, 15, 239), rgb(7, 7, 173), rgb(30, 230, 30), rgb(7, 7, 173), purple, darkblue, rgb(13, 117, 106), rgb(30, 230, 30),
     #8b0045, purple, darkblue, darkgreen, blue, purple, rgb(11, 11, 248), rgb(30, 230, 30), darkblue);
 }
