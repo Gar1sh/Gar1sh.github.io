@@ -1,13 +1,13 @@
 .frame {
     width: 1000px;
-    height: 4100px;
+    height: 4000px;
     border: 50px solid black;
     margin: 50px auto;
 }
 
 .canvas {
     width: 1000px;
-    height: 4100px;
+    height: 4000px;
     background: linear-gradient(blue, purple, darkblue, rgb(13, 117, 106), 
     #8b0045, purple, darkblue, darkgreen, blue, purple, rgb(11, 11, 248), rgb(30, 230, 30), darkblue);
 }
