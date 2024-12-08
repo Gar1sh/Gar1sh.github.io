@@ -28,6 +28,8 @@
 </header>
 <article>
 <hr>
+<button type="button" class="collapsible">Design</button>
+    <div class="content"> 
     <h2>Thinking</h2>
     <h4>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/LkAhMz-W9kY?si=4tqIQGT9hZ45PNXH" 
@@ -35,7 +37,24 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
         </iframe>
-    </h4>     
+    </h4> 
+    <script>
+        var coll = document.getElementsByClassName ("collapsible");
+        var i;
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+        content.style.display = "none";
+        } else {
+        content.style.display = "block";
+        }
+        });
+        }
+    </script>
+    </div>
+    
 <hr>
     <h2>Memory</h2>
     <h4><iframe width="560" height="315" src="https://www.youtube.com/embed/8e6lfNwL9y0?si=zyReXvfJQ1Uia6KX" 
