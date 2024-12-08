@@ -75,8 +75,8 @@ h2 {
 }
 
 .collapsible {
-    background-color: #c828f9;
-    color: black;
+    background-color: black;
+    color: white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
