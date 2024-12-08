@@ -74,6 +74,29 @@ h2 {
     font-size: 65px; 
 }
 
+.collapsible {
+    background-color: #28bbf9;
+    color: #10ecb8;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #f607c2;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #a548f7;
+  }
+
 p {
    font-size: 40px;
    text-align: center;

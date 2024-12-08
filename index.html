@@ -83,12 +83,29 @@
             <h2> 
                <a href="index (2).html" target="_blank">Art History</a> 
             </h2>
-
+            <button type="button" class="collapsible">Open Collapsible</button>
+            <div class="content">
                 <p>
                     This is a complete journey of the history of art, 
                     from Giotto, Jackson, the Ndebele Tribe of Southern Africa
                     contemporary art and modern art.
                 </p>
+                var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+            </div>
+                
                     <h3> 
                         <a href="index (2).html" target="_blank">
                             Artists Across the Ages
