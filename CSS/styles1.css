@@ -88,14 +88,13 @@ h2 {
   }
 
   .active, .collapsible:hover {
-    text-decoration-color: #f607c2;
+    background-color: linear-gradient (turquoise, purple, pink, blue, blueviolet, lightseagreen);
   }
 
   .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: linear-gradient (turquoise, purple, pink, blue, blueviolet, lightseagreen);
   }
   
 
