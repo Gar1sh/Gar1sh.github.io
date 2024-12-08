@@ -87,8 +87,8 @@ h2 {
     font-size: 65px;
   }
 
-  .active, .text:hover {
-    background-color: #f607c2;
+  .active, .collapsible:hover {
+    text-decoration-color: #f607c2;
   }
 
   .content {
