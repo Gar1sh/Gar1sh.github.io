@@ -17,6 +17,8 @@
 <main>
         <div class="frame">
         <div class="canvas"> 
+            <button type="button" class="collapsible">Welcome</button>
+            <div class="content">
             <nav role="navigation" aria-label="main menu">
                     <nav>
                     <ul class="navbar" id="#navbarli">
@@ -32,6 +34,23 @@
                     </ul>
                     </nav>
             </nav>
+            <script>
+                var coll = document.getElementsByClassName ("collapsible");
+                var i;
+                
+                for (i = 0; i < coll.length; i++) {
+                  coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                      content.style.display = "none";
+                    } else {
+                      content.style.display = "block";
+                    }
+                  });
+                }
+                </script>
+            </div>
 <br>
 <hr>                
 <header>
@@ -122,23 +141,23 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
-                    <h3> 
-                        <a href="index (2).html" target="_blank">
-                            Artists Across the Ages
-                        </a>
-                    </h3>
-                    <h3>
-                        <a href="index (3).html" target="_blank">
-                            UNESCO World Heritage Sites
-                        </a>
-                    </h3>
-            </div>    
-                        <hr>
-                        <button type="button" class="collapsible">Psychology</button>
-                        <div class="content">
-            <h2>
-                <a href="index (5).html" target="_blank">Psychology</a>
-            </h2>
+    <h3> 
+     <a href="index (2).html" target="_blank">
+        Artists Across the Ages
+    </a>
+    </h3>
+    <h3>
+    <a href="index (3).html" target="_blank">
+        UNESCO World Heritage Sites
+    </a>
+    </h3>
+</div>    
+<hr>
+    <button type="button" class="collapsible">Psychology</button>
+    <div class="content">
+<h2>
+<a href="index (5).html" target="_blank">Psychology</a>
+</h2>
     <script>
     var coll = document.getElementsByClassName ("collapsible");
     var i;
@@ -199,12 +218,12 @@ for (i = 0; i < coll.length; i++) {
     }
 </script>    
             </div>
-                <hr>
-                <button type="button" class="collapsible">Design</button>
-                <div class="content"> 
-            <h2>
-                Design
-            </h2>
+    <hr>
+    <button type="button" class="collapsible">Design</button>
+    <div class="content"> 
+    <h2>
+        Design
+    </h2>
 <script>
     var coll = document.getElementsByClassName ("collapsible");
     var i;
@@ -221,13 +240,12 @@ for (i = 0; i < coll.length; i++) {
     }
 </script>    
 </div>
-                <hr>
-            
+<hr>  
 <button type="button" class="collapsible">Merchandise</button>
 <div class="content"> 
-            <h2>
+<h2>
 <a href="index (4).html" target="_blank">Merchandise</a>        
-            </h2>
+</h2>
 <script>
     var coll = document.getElementsByClassName ("collapsible");
     var i;
@@ -247,9 +265,9 @@ for (i = 0; i < coll.length; i++) {
 <hr> 
 </article> 
                 <!---Footer-->
-        <footer>
-                    <h2>&copy; <a href="https://www.youtube.com/@TheGarishGrackle" target="_blank">The Garish Grackle</a>&star;</h2>    
-        </footer>
+<footer>
+<h2>&copy; <a href="https://www.youtube.com/@TheGarishGrackle" target="_blank">The Garish Grackle</a>&star;</h2>    
+</footer>
 </div>
 </div>   
 </main>  
