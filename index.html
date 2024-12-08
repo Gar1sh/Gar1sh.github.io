@@ -33,8 +33,7 @@
                     </nav>
             </nav>
 <br>
-<hr>
-                           
+<hr>                
 <header>
                     <h1 class="image">  
                        <a href="https://www.youtube.com/@TheGarishGrackle"><img src="GGicon.jpg"></a>
@@ -117,9 +116,26 @@ for (i = 0; i < coll.length; i++) {
                     </h3>
             </div>    
                         <hr>
+            <div>
             <h2>
                 <a href="index (5).html" target="_blank">Psychology</a>
             </h2>
+            <script>
+var coll = document.getElementsByClassName ("collapsible");
+var i;
+    for (i = 0; i < coll.length; i++) {
+coll[i].addEventListener("click", function() {
+this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+content.style.display = "none";
+    } else {
+content.style.display = "block";
+}
+ });
+                }
+ </script>
+            </div>
                 <hr>
             <h2>
                 <a href="index (6).html" target="_blank">International Relations</a>

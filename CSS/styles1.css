@@ -88,8 +88,7 @@ h2 {
   }
 
   .active, .collapsible:hover, {
-    background-color: pink;
-    
+    color: pink;
   }
 
   .content {
