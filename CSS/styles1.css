@@ -87,7 +87,7 @@ h2 {
     font-size: 65px;
   }
 
-  .active, .collapsible:hover {
+  .active, .collapsible:hover, {
     color: rgb(244, 25, 182);
   }
 
