@@ -73,31 +73,7 @@ h2 {
     text-align: center;
     font-size: 65px; 
 }
-
-.collapsible {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-family: 'Franklin Gothic Medium';
-    font-size: 65px;
-  }
-
-  .active, .collapsible:hover, {
-    color: pink;
-  }
-
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-  }
   
-
 p {
    font-size: 40px;
    text-align: center;
