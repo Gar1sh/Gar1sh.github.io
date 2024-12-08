@@ -57,6 +57,8 @@
                     allowfullscreen></iframe>
                 </h4>         
 <hr>
+<button type="button" class="collapsible">Art History</button>
+<div class="content">
             <h2>
                 <a href="https://www.youtube.com/@TheGarishGrackle" target="_blank">The Garish Grackle
                 </a>
@@ -75,7 +77,23 @@
                         <a href="https://www.youtube.com/@TheGarishGrackle">The Garish Grackle
                         </a>is a virtual treasure map to educate and enlighten.          
                     </p>
-
+                    <script>
+                        var coll = document.getElementsByClassName ("collapsible");
+                        var i;
+                        
+                        for (i = 0; i < coll.length; i++) {
+                          coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var content = this.nextElementSibling;
+                            if (content.style.display === "block") {
+                              content.style.display = "none";
+                            } else {
+                              content.style.display = "block";
+                            }
+                          });
+                        }
+                        </script>
+</div>
                     <br>
                         <hr>
             <button type="button" class="collapsible">Art History</button>
