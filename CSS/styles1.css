@@ -88,7 +88,7 @@ h2 {
   }
 
   .active, .collapsible:hover {
-    background-color: linear-gradient (turquoise, purple, pink, blue, blueviolet, lightseagreen);
+    color: rgb(244, 25, 182);
   }
 
   .content {
