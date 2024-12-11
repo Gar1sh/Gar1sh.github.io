@@ -9,7 +9,7 @@
     width: 1000px;
     height: 4100px;
     background: linear-gradient(blue, purple, darkblue, rgb(13, 117, 106), 
-    #0e008b, purple, rgb(211, 62, 237), rgb(35, 235, 35), blue, purple, rgb(11, 11, 248), rgb(5, 147, 5), darkblue);
+    #0e008b, purple, rgb(211, 62, 237), rgb(35, 178, 235), blue, purple, rgb(11, 11, 248), rgb(5, 147, 5), darkblue);
 }
 
 .image {
@@ -40,7 +40,7 @@ li {
 }
 
 body {   
-    background-color: rgb(248, 11, 153);
+    background-color: rgb(11, 248, 161);
 }
 
 hr {
