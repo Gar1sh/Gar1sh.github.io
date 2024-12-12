@@ -8,7 +8,7 @@
 .canvas {
     width: 1000px;
     height: 4100px;
-    background: linear-gradient(blue, rgb(245, 31, 231), purple, rgb(8, 160, 23), darkblue, rgb(13, 117, 106),purple, #0e008b, rgb(211, 62, 237), rgb(13, 17, 239) blue, rgb(4, 147, 35), purple, rgb(11, 11, 248), rgb(5, 147, 5), darkblue);
+    background: linear-gradient(blue, rgb(245, 31, 231), purple, rgb(8, 160, 23), darkblue, rgb(13, 117, 106),purple, #120396, rgb(211, 62, 237), rgb(13, 117, 106), rgb(13, 17, 239) blue, rgb(4, 147, 35), purple, rgb(11, 11, 248), rgb(5, 147, 5), scarlet, darkblue);
 }
 
 .image {
