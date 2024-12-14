@@ -1,13 +1,13 @@
 .frame {
     width: 1000px;
-    height: 4150px;
+    height: 4180px;
     border: 50px solid black;
     margin: 50px auto;
 }
 
 .canvas {
     width: 1000px;
-    height: 4150px;
+    height: 4180px;
     background: linear-gradient(rgb(136, 6, 77), rgb(7, 7, 173), purple, darkblue, rgb(13, 117, 106), 
     #8b0045, purple, darkblue, darkgreen, blue, purple, rgb(11, 11, 248), rgb(30, 230, 30), darkblue);
 }
@@ -79,7 +79,7 @@ h2 {
 p {
    font-size: 40px;
    text-align: center;
-   color: black;
+   color: silver;
    padding-top: 2px;
    padding-bottom: 10px;
    padding-left: 5px;
