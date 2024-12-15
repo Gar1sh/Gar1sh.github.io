@@ -26,7 +26,7 @@
 ul {
     list-style-type: none;
     font-size: 40px;
-    color: rgb(166, 35, 248);
+    color: rgb(198, 38, 244);
 }
 
 li {
@@ -42,7 +42,7 @@ li {
 
 
 body {   
-    background-color: blue;
+    background-color: rgb(7,7,173);
 }
 
 hr {
@@ -55,7 +55,7 @@ hr {
 h1 {
     vertical-align: center;
     font-size: 100px; 
-    color: rgb(192, 22, 239); 
+    color: rgb(198, 58, 244); 
 }
 
 img {
