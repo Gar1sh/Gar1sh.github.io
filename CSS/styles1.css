@@ -50,13 +50,13 @@ hr {
     vertical-align: auto;
 }
 
-@supports (-webkit-text-stroke: 1px black) {
+
 h1 {
     vertical-align: center;
     font-size: 100px; 
     color: rgb(0, 0, 255); 
-    -webkit-text-stroke: 1px black;
-}}
+    
+}
 
 img {
     vertical-align: center;
