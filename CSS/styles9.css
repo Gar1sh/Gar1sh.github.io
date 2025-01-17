@@ -11,31 +11,10 @@
     background: linear-gradient(lightseagreen, blue, darkorchid, turquoise, blue, mediumvioletred, dodgerblue, blue, violet, lightseagreen, blue, magenta, lightseagreen, blue, mediumvioletred, mediumseagreen);
 }
 
-.image {
-    float: left;
-    text-wrap: right;
-    margin-left: 2.5cm;
-}
 
 .title {
     text-align: center;
     font-size: 125px;
-}
-
-ul {
-    list-style-type: none;
-    font-size: 40px;
-    color: rgb(134, 25, 164);
-}
-
-li {
-    display: inline
-}
-
-.navbarli {
-    position: fixed;
-    display: flex;
-    padding: 100px;
 }
 
 
@@ -54,23 +33,12 @@ hr {
 h1 {
     vertical-align: center;
     font-size: 100px; 
-    color: rgb(0, 255, 255); 
+    color: rgb(0, 0, 0); 
 }
 
-img {
-    vertical-align: center;
-    border: 6px solid silver;
-}
-
-iframe {
-    
-    border: 6px solid silver;
-    padding-top: 2px;
-    padding-right: 2px;
-}
 
 h2 {
-    color: rgb(0, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 65px; 
 }
@@ -78,7 +46,7 @@ h2 {
 p {
    font-size: 40px;
    text-align: center;
-   color: black;
+   color: rgb(0, 0, 0);
    padding-top: 2px;
    padding-bottom: 10px;
    padding-left: 5px;
@@ -89,7 +57,7 @@ p {
 }
     
 h3 {
-    color: rgb(0, 255, 255);    
+    color: rgb(0, 0, 0);    
     text-align: left;
     font-size: 45px;
     padding-left: 20px;
