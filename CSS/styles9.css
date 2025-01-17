@@ -37,21 +37,3 @@ h1 {
 }
 
 
-h2 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 65px; 
-}
- 
-    
-h3 {
-    color: rgb(0, 0, 0);    
-    text-align: left;
-    font-size: 45px;
-    padding-left: 20px;
-    margin-left: 1.5cm;
-}
-
-h4 {
-    text-align: center;
-}
