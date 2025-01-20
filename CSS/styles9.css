@@ -7,38 +7,9 @@
 
 .canvas {
     width: 1000px;
-    height: 4250px;
+    height: 4300px;
     background: linear-gradient(lightseagreen, blue, darkorchid, turquoise, blue, mediumvioletred, dodgerblue, blue, violet, lightseagreen, blue, magenta, lightseagreen, blue, mediumvioletred, mediumseagreen);
 }
-
-.image {
-    float: left;
-    text-wrap: right;
-    margin-left: 2.5cm;
-}
-
-.title {
-    text-align: center;
-    font-size: 125px;
-}
-
-ul {
-    list-style-type: none;
-    font-size: 40px;
-    color: rgb(134, 25, 164);
-}
-
-li {
-    display: inline
-}
-
-.navbarli {
-    position: fixed;
-    display: flex;
-    padding: 100px;
-}
-
-
 
 body {   
     background-color: rgb(7,7,173);
