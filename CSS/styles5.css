@@ -17,7 +17,7 @@ hr {
 
 .canvas {
     width: 1000px;
-    height: 5500px;
+    height: 5600px;
     background: linear-gradient(lightseagreen, blue, darkorchid, turquoise, blue, mediumvioletred, dodgerblue, blue, violet, lightseagreen, blue, magenta, lightseagreen, blue, mediumvioletred, mediumseagreen);
 }
 
@@ -26,7 +26,7 @@ hr {
 h1 {
     text-align: center;
     font-size: 75px;
-    color: rgb(0, 255, 255);
+    color: rgb(0, 0, 0);
     padding-bottom: 5px;
 
 }
@@ -35,7 +35,7 @@ h1 {
 h2 {
     text-align: center;
     font-size: 65px;
-    color: black;
+    color: rgb(0, 0, 0);
     padding-bottom: 5px;
     padding-left: 30px;
    
@@ -44,7 +44,7 @@ h2 {
 p {
     text-align: center;
     font-size: 50px;
-    color: black;
+    color: rgb(0, 0, 0);
     
 }
 
