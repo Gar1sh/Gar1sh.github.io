@@ -1,13 +1,13 @@
 .frame {
     width: 1000px;
-    height: 4500px;
+    height: 4550px;
     border: 50px solid black;
     margin: 50px auto;
 }
 
 .canvas {
     width: 1000px;
-    height: 4500px;
+    height: 450px;
     background: linear-gradient(lightseagreen, blue, darkorchid, turquoise, blue, mediumvioletred, dodgerblue, blue, violet, lightseagreen, blue, magenta, lightseagreen, blue, mediumvioletred, mediumseagreen);
 }
 
