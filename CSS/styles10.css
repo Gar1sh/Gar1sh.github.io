@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(21, 21, 138);
+}
+
+hr {
+    height: 7px;
+    border: 12px solid black;
+    
+}
+
+.frame {
+    width: 1000px;
+    height: 2500px;
+    border: 50px solid black;
+    margin: 50px auto;
+}
+
+.canvas {
+    width: 1000px;
+    height: 2500px;
+    background: linear-gradient(lightseagreen, blue, darkorchid, turquoise, blue, mediumvioletred, dodgerblue, blue, violet, lightseagreen, blue, magenta, lightseagreen, blue, mediumvioletred, mediumseagreen);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    padding-bottom: 5px;
+
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 65px;
+    color: black;
+    padding-bottom: 5px;
+    padding-left: 30px;
+   
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    
+}
