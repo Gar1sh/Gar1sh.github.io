@@ -8,7 +8,7 @@
 .canvas {
     width: 1000px;
     height: 4750px;
-    background: linear-gradient(lightseagreen, blue, darkorchid, turquoise, blue, mediumvioletred, dodgerblue, blue, violet, lightseagreen, blue, magenta, lightseagreen, blue, mediumvioletred, mediumseagreen);
+    background: linear-gradient(lightseagreen, blue, darkorchid, turquoise, blue, mediumvioletred, dodgerblue, blue, violet, lightseagreen, blue, magenta, lightseagreen, blue, violet, mediumseagreen);
 }
 
 .image {
